@@ -1,0 +1,81 @@
+body {
+	background-color: #73fbd3;
+	font-family: 'Comfortaa', sans-serif;
+}
+
+footer {
+	text-align: center;
+}
+
+h1 {
+	color: #fff;
+	font-size: 5em;
+	text-shadow: 3px 3px 6px #7d5ba6;
+}
+
+header {
+	text-align: center;
+}
+
+p {
+	margin: 0 auto;
+	max-width: 90%;
+	text-align: center;
+}
+
+.styled-hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(45, 11, 86, 0.75), rgba(0, 0, 0, 0));
+}
+
+/*a.navbar-brand {
+	padding: 0;
+	margin-right: 1.5rem;
+}*/
+
+#container {
+	background-color: white;
+	margin: 1.5% auto;
+	padding: .5% 0;
+	width: 80%;
+}
+
+#dropdown {
+	background-color: #fefeff;
+}
+
+#jumboheader {
+	background-color: inherit;
+	background-image: url(https://nebula.wsimg.com/41a672dfb95d100afb1e27dcc9559b85?AccessKeyId=331075D671E6EDEAE48E&disposition=0&alloworigin=1);
+	background-size: cover;
+	border-radius: 0px;
+	min-height: 350px;
+	margin: 0 auto;
+	padding: 6.5rem 3.25rem;
+}
+
+#main-nav {
+	background-color: #af8dd8;
+	border: 1px solid rgba(30, 15, 30, 0.8);
+	padding: 0;
+}
+
+#subtitle {
+	color: #fff;
+	font-family: "Dancing Script", cursive;
+	font-size: 1.8em;
+	font-weight: 400;
+	margin-bottom: 0;
+	margin-top: -5px;
+	text-shadow: 1px 2px 5px #7d5ba6;
+}
+
+#title-link {
+	color: white;
+}
+
+#title-link:hover {
+	color: white;
+	text-decoration: none;
+}
