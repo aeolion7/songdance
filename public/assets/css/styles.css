@@ -47,12 +47,11 @@ p {
 
 #jumboheader {
 	background-color: inherit;
-	background-image: url(https://nebula.wsimg.com/41a672dfb95d100afb1e27dcc9559b85?AccessKeyId=331075D671E6EDEAE48E&disposition=0&alloworigin=1);
+	background-image: url('../img/header.jpeg');
 	background-size: cover;
-	border-radius: 0px;
-	min-height: 350px;
+	min-height: 500px;
 	margin: 0 auto;
-	padding: 6.5rem 3.25rem;
+	padding: 10rem 3.25rem;
 }
 
 #main-nav {

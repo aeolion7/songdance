@@ -1,0 +1,24 @@
+{
+  "name": "songandadance",
+  "version": "1.0.0",
+  "description": "Website files, work in progress.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aeolion7/songdance.git"
+  },
+  "author": "Joseph Lionarons",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aeolion7/songdance/issues"
+  },
+  "homepage": "https://github.com/aeolion7/songdance#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7"
+  }
+}
