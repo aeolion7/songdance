@@ -58,10 +58,9 @@ router.use((req, res, next) => {
   res.status(404).sendFile(path.join(__dirname, '../public', 'notfound.html'));
 });
 
-// TODO: create custom 500 page
 router.use((err, req, res, next) => {
   console.error(err.message);
-  res.status(500).send('Server Error');
+  res.status(500).sendFile(path.join(__dirname, '../public', 'serverr.html'));
 });
 
 module.exports = router;
