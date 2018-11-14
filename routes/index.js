@@ -54,9 +54,8 @@ router.get('/tuition', (req, res, next) => {
   res.status(200).sendFile(path.join(__dirname, '../public', 'tuition.html'));
 });
 
-// TODO: create custom 404 page
 router.use((req, res, next) => {
-  res.status(404).send('Page Not Found');
+  res.status(404).sendFile(path.join(__dirname, '../public', 'notfound.html'));
 });
 
 // TODO: create custom 500 page
