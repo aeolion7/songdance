@@ -5,7 +5,7 @@ const path = require('path');
 //TODO: add query support
 
 router.get('/', (req, res, next) => {
-  res.status(200).sendFile('../public/index.html');
+  res.status(200).sendFile(path.join(__dirname, '../public', 'index.html'));
 });
 
 router.get('/acro', (req, res, next) => {
@@ -54,15 +54,6 @@ router.get('/schedule', (req, res, next) => {
 
 router.get('/tuition', (req, res, next) => {
   res.status(200).sendFile(path.join(__dirname, '../public', 'tuition.html'));
-});
-
-router.use((req, res, next) => {
-  res.status(404).sendFile(path.join(__dirname, '../public', 'notfound.html'));
-});
-
-router.use((err, req, res, next) => {
-  console.error(err.message);
-  res.status(500).sendFile(path.join(__dirname, '../public', 'serverr.html'));
 });
 
 module.exports = router;
