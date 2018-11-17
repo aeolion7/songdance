@@ -2,8 +2,6 @@ const express = require('express');
 const router = express.Router();
 const path = require('path');
 
-//TODO: add query support
-
 router.get('/', (req, res, next) => {
   res.status(200).sendFile(path.join(__dirname, '../views', 'index.html'));
 });
