@@ -5,55 +5,55 @@ const path = require('path');
 //TODO: add query support
 
 router.get('/', (req, res, next) => {
-  res.status(200).sendFile(path.join(__dirname, '../public', 'index.html'));
+  res.status(200).sendFile(path.join(__dirname, '../views', 'index.html'));
 });
 
 router.get('/acro', (req, res, next) => {
-  res.status(200).sendFile(path.join(__dirname, '../public', 'acro.html'));
+  res.status(200).sendFile(path.join(__dirname, '../views', 'acro.html'));
 });
 
 router.get('/contact', (req, res, next) => {
-  res.status(200).sendFile(path.join(__dirname, '../public', 'contact.html'));
+  res.status(200).sendFile(path.join(__dirname, '../views', 'contact.html'));
 });
 
 router.get('/dance', (req, res, next) => {
-  res.status(200).sendFile(path.join(__dirname, '../public', 'dance.html'));
+  res.status(200).sendFile(path.join(__dirname, '../views', 'dance.html'));
 });
 
 router.get('/events', (req, res, next) => {
-  res.status(200).sendFile(path.join(__dirname, '../public', 'events.html'));
+  res.status(200).sendFile(path.join(__dirname, '../views', 'events.html'));
 });
 
 router.get('/faculty', (req, res, next) => {
-  res.status(200).sendFile(path.join(__dirname, '../public', 'faculty.html'));
+  res.status(200).sendFile(path.join(__dirname, '../views', 'faculty.html'));
 });
 
 router.get('/faq', (req, res, next) => {
-  res.status(200).sendFile(path.join(__dirname, '../public', 'faq.html'));
+  res.status(200).sendFile(path.join(__dirname, '../views', 'faq.html'));
 });
 
 router.get('/gallery', (req, res, next) => {
-  res.status(200).sendFile(path.join(__dirname, '../public', 'gallery.html'));
+  res.status(200).sendFile(path.join(__dirname, '../views', 'gallery.html'));
 });
 
 router.get('/karate', (req, res, next) => {
-  res.status(200).sendFile(path.join(__dirname, '../public', 'karate.html'));
+  res.status(200).sendFile(path.join(__dirname, '../views', 'karate.html'));
 });
 
 router.get('/music', (req, res, next) => {
-  res.status(200).sendFile(path.join(__dirname, '../public', 'music.html'));
+  res.status(200).sendFile(path.join(__dirname, '../views', 'music.html'));
 });
 
 router.get('/programs', (req, res, next) => {
-  res.status(200).sendFile(path.join(__dirname, '../public', 'programs.html'));
+  res.status(200).sendFile(path.join(__dirname, '../views', 'programs.html'));
 });
 
 router.get('/schedule', (req, res, next) => {
-  res.status(200).sendFile(path.join(__dirname, '../public', 'schedule.html'));
+  res.status(200).sendFile(path.join(__dirname, '../views', 'schedule.html'));
 });
 
 router.get('/tuition', (req, res, next) => {
-  res.status(200).sendFile(path.join(__dirname, '../public', 'tuition.html'));
+  res.status(200).sendFile(path.join(__dirname, '../views', 'tuition.html'));
 });
 
 module.exports = router;
